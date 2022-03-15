@@ -2,7 +2,7 @@ package demoGit;
 
 import org.testng.annotations.Test;
 
-public class Demo 
+public class DemoTest
 {
 	@Test
 	public void demo()
@@ -19,4 +19,11 @@ public class Demo
 		
 		
 	}
+	
+	@Test
+	public void sample()
+	{
+		System.out.println("Its sample Test");
+	}
+	
 }
